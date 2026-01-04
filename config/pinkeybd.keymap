@@ -1,6 +1,5 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
-#include "pinkeybd-layer.dtsi"
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
@@ -31,7 +30,7 @@
                 &kp FSLH     &kp COMMA    &kp DOT      &kp MINUS    &kp SEMI     &kp ESC                            &kp L        &kp R        &kp D        &kp Y        &kp P
                 &kp A        &kp O        &kp E        &kp I        &kp U        &kp SCROLLLOCK                     &kp G        &kp N        &kp T        &kp S        &kp K
                 &kp X        &kp C        &kp V        &kp W        &kp Q        &kp TAB                            &kp J        &kp H        &kp M        &kp B        &kp Z
-                &kp LSHIFT                             &lt LOWER LANGUAGE_1 &kp SPACE &kp LEFT_WIN       &kp F      &kp RSHIFT   &kp ENTER    &lt NUM_L LANGUAGE_2      &mo LOWER2
+                &kp LSHIFT                             &lt 1 LANGUAGE_1 &kp SPACE &kp LEFT_WIN       &kp F      &kp RSHIFT   &kp ENTER    &lt 3 LANGUAGE_2      &mo 2
             >;
             sensor-bindings = <&rot_kp PG_DN PG_UP>;
         };
@@ -47,7 +46,7 @@
                 &kp FSLH    &kp COMMA    &kp END        &kp LEFT_BRACE  &kp DOUBLE_QUOTES   &kp PAUSE_BREAK                 &kp LPAR          &kp RPAR      &kp UP       &kp LBKT     &kp RBKT
                 &kp HOME    &kp LS(S)    &kp E          &kp RPAR        &kp U               &kp SCROLLLOCK                  &kp BSPC          &kp LEFT      &kp DOWN     &kp RIGHT    &kp DEL
                 &kp LC(Z)   &kp LC(X)    &kp LC(C)      &kp LC(V)       &kp Q               &kp TAB                         &kp APOS          &kp EQUAL     &kp BSLH     &kp GRAVE    &kp INS
-                &kp LSHIFT                              &none           &kp SPACE           &kp LALT            &kp PSCRN   &kp RSHIFT        &kp ENTER     &mo FUNC_L                &kp RCTRL
+                &kp LSHIFT                              &none           &kp SPACE           &kp LALT            &kp PSCRN   &kp RSHIFT        &kp ENTER     &mo 4                &kp RCTRL
             >;  
         };
 
@@ -62,7 +61,7 @@
                 &none        &kp COMMA    &kp END      &kp LEFT_BRACE       &kp SINGLE_QUOTE    &kp ESC                             &kp L           &kp R        &kp PG_UP       &kp LBKT       &kp RBRC
                 &kp HOME     &kp LS(S)    &kp END      &kp RIGHT_BRACE      &kp U               &kp LCTRL                           &kp BSPC        &kp HOME     &kp PG_DN       &kp END        &kp DEL
                 &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(V)            &kp Q               &kp TAB                             &kp APOS        &kp EQUAL    &kp BSLH        &kp GRAVE      &kp INS
-                &kp LSHIFT                             &mo BT_L             &kp SPACE           &kp LALT                &kp PSCRN   &kp RSHIFT      &kp ENTER    &none                          &kp RSHIFT
+                &kp LSHIFT                             &mo 5             &kp SPACE           &kp LALT                &kp PSCRN   &kp RSHIFT      &kp ENTER    &none                          &kp RSHIFT
             >;
         };
 
@@ -77,7 +76,7 @@
                 &kp N1       &kp N2       &kp N3       &kp N4       &kp N5      &kp ESC                         &kp N6       &kp N7      &kp N8     &kp N9      &kp N0
                 &kp LS(N1)   &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)  &none                           &kp RS(N6)   &kp RS(N7)  &kp RS(N8) &kp RS(N9)  &kp RS(N0)
                 &kp F1       &kp F2       &kp F3       &kp F4       &kp F5      &kp TAB                         &kp APOS     &kp EQUAL   &kp BSLH   &kp GRAVE   &kp INS
-                &mo LSHIFT                             &mo BT_L     &kp SPACE   &kp LSHIFT          &kp F11   &kp RSHIFT   &kp ENTER   &none                  &kp RSHIFT
+                &mo LSHIFT                             &mo 5     &kp SPACE   &kp LSHIFT          &kp F11   &kp RSHIFT   &kp ENTER   &none                  &kp RSHIFT
             >;
         };
             // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -45,10 +45,10 @@
 
         Lower_layer {
             bindings = <
-&kp FSLH    &kp COMMA  &kp END    &kp LEFT_BRACE  &kp DOUBLE_QUOTES  &kp PAUSE_BREAK  &kp LPAR   &kp RPAR   &kp UP     &kp LBKT   &kp RBKT
-&kp HOME    &kp LS(S)  &kp E      &kp RPAR        &kp U              &kp SCROLLLOCK   &kp BSPC   &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp Q              &kp TAB          &kp APOS   &kp EQUAL  &kp BSLH   &kp GRAVE  &kp INS
-&kp LSHIFT  &none      &kp SPACE  &kp LALT        &kp PSCRN          &kp RSHIFT       &kp ENTER  &mo 4      &kp RCTRL
+&kp N1      &kp NUMBER_2  &kp N3     &kp NUMBER_4  &kp N5     &kp PAUSE_BREAK  &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp N0
+&kp HOME    &kp LS(S)     &kp E      &kp RPAR      &kp U      &kp SCROLLLOCK   &kp BSPC      &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL
+&kp LC(Z)   &kp LC(X)     &kp LC(C)  &kp LC(V)     &kp Q      &kp TAB          &kp APOS      &kp EQUAL  &kp BSLH   &kp GRAVE  &kp INS
+&kp LSHIFT  &none         &kp SPACE  &kp LALT      &kp PSCRN  &kp RSHIFT       &kp ENTER     &mo 4      &kp RCTRL
             >;
         };
 

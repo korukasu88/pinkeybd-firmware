@@ -93,7 +93,7 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp E          &kp R  &kp T            &kp Y      &kp U             &kp O       &kp P    &kp N2
+&kp ESCAPE  &kp Q             &kp W      &kp E          &kp R  &kp T            &kp Y      &kp U             &kp O       &kp P    &kp AT_SIGN
 &kp CLCK    &kp A             &kp S      &kp D          &kp F  &msc MOVE_Y(10)  &kp H      &kp J             &kp K       &kp L    &kp BACKSPACE
 &kp TAB     &kp Z             &kp X      &kp C          &kp V  &kp G            &kp N      &kp M             &kp PERIOD  &kp DOT  &kp DELETE
 &kp LSHIFT  &lt 1 LANGUAGE_1  &kp SPACE  &kp BACKSPACE  &kp B  &mkp LCLK        &kp ENTER  &lt 3 LANGUAGE_2  &mo 1
@@ -111,10 +111,10 @@
 
         Lower_layer {
             bindings = <
-&kp FSLH    &kp COMMA  &kp END    &kp LEFT_BRACE  &kp DOUBLE_QUOTES  &kp PAUSE_BREAK  &kp LPAR   &kp RPAR   &kp UP     &kp LBKT   &kp RBKT
-&kp HOME    &kp LS(S)  &kp E      &kp RPAR        &kp U              &kp SCROLLLOCK   &kp BSPC   &kp LEFT   &kp DOWN   &kp RIGHT  &kp DEL
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp Q              &kp TAB          &kp APOS   &kp EQUAL  &kp BSLH   &kp GRAVE  &kp INS
-&kp LSHIFT  &none      &kp SPACE  &kp LALT        &kp PSCRN          &kp RSHIFT       &kp ENTER  &mo 4      &kp RCTRL
+&screenshot  &find   &kp END    &kp LEFT_BRACE  &kp DOUBLE_QUOTES  &kp PAUSE_BREAK  &kp N7        &kp N8        &kp N9        &kp SLASH  &kp ASTRK
+&copy        &undo   &mkp MB1   &mkp MB2        &mkp MB1           &kp SCROLLLOCK   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0     &kp DEL
+&paste       &winm   &kp LC(C)  &kp LC(V)       &kp Q              &kp TAB          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp DELETE
+&selectall   &trans  &kp SPACE  &kp BACKSPACE   &kp MINUS          &kp RSHIFT       &kp ENTER     &mo 4         &kp EQUAL
             >;
         };
 
@@ -127,10 +127,10 @@
 
         Lower2_layer {
             bindings = <
-&none       &kp COMMA  &kp END    &kp LEFT_BRACE   &kp SINGLE_QUOTE  &kp ESC     &kp L      &kp R      &kp PG_UP   &kp LBKT   &kp RBRC
-&kp HOME    &kp LS(S)  &kp END    &kp RIGHT_BRACE  &kp U             &kp LCTRL   &kp BSPC   &kp HOME   &kp PG_DN   &kp END    &kp DEL
-&kp LC(Z)   &kp LC(X)  &kp LC(C)  &kp LC(V)        &kp Q             &kp TAB     &kp APOS   &kp EQUAL  &kp BSLH    &kp GRAVE  &kp INS
-&kp LSHIFT  &mo 5      &kp SPACE  &kp LALT         &kp PSCRN         &kp RSHIFT  &kp ENTER  &none      &kp RSHIFT
+&kp EXCLAMATION       &kp AT                 &kp HASH          &kp DOLLAR         &kp PERCENT           &kp CARET      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS         &kp UNDER          &kp TILDE             &kp AMPERSAND  &kp COLON       &kp SEMICOLON    &kp MINUS      &kp EQUAL         &kp DEL
+&kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp NON_US_BACKSLASH  &kp TAB        &kp SLASH       &kp ASTERISK     &kp COMMA      &kp PERIOD        &kp PIPE
+&kp ENTER             &mo 0                  &kp SPACE         &kp BACKSPACE      &kp PSCRN             &kp RSHIFT     &kp ENTER       &mo 1            &kp RSHIFT
             >;
         };
 
@@ -145,8 +145,8 @@
             bindings = <
 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp ESC     &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none       &kp RS(N6)  &kp RS(N7)  &kp RS(N8)  &kp RS(N9)  &kp RS(N0)
-&kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp TAB     &kp APOS    &kp EQUAL   &kp BSLH    &kp GRAVE   &kp INS
-&mo LSHIFT  &mo 5       &kp SPACE   &kp LSHIFT  &kp F11     &kp RSHIFT  &kp ENTER   &none       &kp RSHIFT
+&kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp TAB     &kp F7      &kp F8      &kp F9      &kp F10     &kp ENTER
+&mo LSHIFT  &mo 5       &kp SPACE   &kp LSHIFT  &kp F6      &kp RSHIFT  &kp F11     &kp F12     &kp RSHIFT
             >;
         };
 
